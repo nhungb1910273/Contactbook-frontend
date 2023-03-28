@@ -37,8 +37,8 @@
                     this.$router.push({
                         name: "notfound",
                         params: {
-                        pathMatch: this.$route.path.split("/").slice(1)
-                    },
+                            pathMatch: this.$route.path.split("/").slice(1)
+                        },
                     query: this.$route.query,
                     hash: this.$route.hash,
                     });
